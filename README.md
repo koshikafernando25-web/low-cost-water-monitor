@@ -2,7 +2,7 @@
 
 A production-optimized hardware and software architecture designed to evaluate **pH and Turbidity** simultaneously inside a single inline pipeline block. 
 
-By bypassing expensive retail breakout modules, removing cross-talk interference, and designing analog conditioning layers directly around raw silicon, the absolute production bill of materials (BOM) is optimized to sit ** under $3.50 (~Rs. 1,050 LKR) **.
+By bypassing expensive retail breakout modules, removing cross-talk interference, and designing analog conditioning layers directly around raw silicon, the absolute production bill of materials (BOM) is optimized to sit **under $3.50 (~Rs. 1,050 LKR)**.
 
 ---
 
