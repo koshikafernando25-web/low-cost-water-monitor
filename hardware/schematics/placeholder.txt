@@ -1,7 +1,7 @@
 ================================================================================
-UNIFIED 3-IN-1 LOW-COST ANALOG SIGNAL CONDITIONING SCHEMATIC
+UNIFIED 2-IN-1 LOW-COST ANALOG SIGNAL CONDITIONING SCHEMATIC
 ================================================================================
-Target Production Budget: < $4.50 (Rs. 1,350 LKR)
+Target Production Budget: < $4.00 (Rs. 1,200 LKR)
 Silicon Core: TL072 / TL082 Dual JFET-Input Operational Amplifier
 
 --------------------------------------------------------------------------------
@@ -61,24 +61,8 @@ Silicon Core: TL072 / TL082 Dual JFET-Input Operational Amplifier
                                                              │
  System GND ─────────────────────────────────────────────────┴─────────
 
-
---------------------------------------------------------------------------------
-4. STAGE C: TOTAL DISSOLVED SOLIDS (TDS) SYSTEM (Direct Interfacing)
---------------------------------------------------------------------------------
-* Uses two 316L Marine-Grade Stainless Steel rods spaced exactly 5mm apart.
-
-   +5V Rail ──────[1k Resistor]────┬────► PIN 1 (Stainless Steel Rod 1 in fluid)
-                                   │
-                                   └────► To MCU Analog Pin 36
-                                   
-                                   ┌────► PIN 2 (Stainless Steel Rod 2 in fluid)
-                                   │
- System GND ───────────────────────┴────────────────────────────────────────────
-
 ================================================================================
 NOTES FOR FABRICATION:
-1. Ensure the E-201-C central core copper never brushes against the shield mesh strands.
-2. The 10uF capacitor must be oriented correctly (Positive leg to the 2.5V junction, 
-   Negative leg to true System Ground).
-3. Use a PG13.5 cable gland to secure and isolate the pH probe glass frame.
+1. TDS Subsystem removed to eliminate stray current electrochemical corruption.
+2. The 10uF capacitor must be oriented correctly (Positive leg to the 2.5V junction).
 ================================================================================
